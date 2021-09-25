@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/predio_oscar_com_flores_com_zoom.jpeg);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+header {
+  font-size: 48px;
+  text-align: center;
+}
+.cabecalho {
+  font-family: "Oswald", sans-serif;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+}
+.texto {
+  font-family: "Raleway", sans-serif;
+  background-color: rgba(255, 255, 255, 0.535);
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 10px;
+  padding: 10px;
+  list-style-type: none;
+}
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  text-align: center;
+  margin: 10px;
+}
+.imagem {
+  list-style-type: none;
+  position: relative;
+  left: 25%;
+}
+img {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+.unica {
+  left: 42%;
+}
+#insta {
+  height: 40px;
+  width: 40px;
+}
+#youtube {
+  left: 95%;
+  height: 40px;
+  width: 50px;
+}
+.footer {
+  font-family: "Oswald", sans-serif;
+  background-color: rgba(255, 255, 255, 0.809);
+  padding: 5px;
+  border-radius: 5px;
+}
+strong {
+  font-size: 24px;
+  position: absolute;
+  left: 38%;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+}
+form {
+  max-width: 650px;
+}
+form input {
+  font-size: 20px;
+  height: 30px;
+}
+.center form {
+  margin: 0 auto;
+}
+input:hover {
+  transform: scale(1.3);
+  transition: 0.8s;
+}
+input:invalid {
+  background-color: rgba(255, 156, 62, 0.986);
+}
+.group {
+  flex-direction: row;
+}
+.group input {
+  height: 15px;
+}
+.check {
+  margin: 0px 10px 15px 0px;
+}
+
+.check:hover {
+  transform: scale(1.5);
+}
+select {
+  height: 30px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+select:hover {
+  background-color: rgba(255, 156, 62, 0.986);
+}
+.botoes button {
+  width: 90px;
+  height: 30px;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.nav ul {
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navegacao:hover {
+  animation: mexer 0.5s;
+}
+@keyframes mexer {
+  25% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+}
+.center {
+  margin-top: 50px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+#idade {
+  margin-top: 10px;
+}

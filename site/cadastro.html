@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="cabecalho">
+          <li class="navegacao">
+            <a href="index.html">Página inicial</a>
+          </li>
+          <li class="cadastro">Cadastro</li>
+          <li class="navegacao">
+            <a href="cadastro.html">Cadastre-se</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="center">
+      <form class="texto flex" action="">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" maxlength="100" required />
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+        <label for="telefone">Telefone</label>
+        <input type="number" name="telefone" id="telefone" required />
+        <label for="data">Data de Nascimento</label>
+        <input type="date" name="data" id="data" required />
+        <label id="idade" for="radio">Tem mais de 18 anos?</label>
+        <label class="group">
+          <input type="radio" value="0" name="radio" id="radio" checked />
+          <span>Não</span>
+        </label>
+        <label class="group">
+          <input type="radio" value="1" name="radio" id="radio" />
+          <span>Sim</span>
+        </label>
+        <label for="pontos">Selecione um ponto de interesse</label>
+        <select name="pontoInteresse" id="pontos">
+          <option value="" disabled selected>Selecione</option>
+          <option value="">Praça do Papa</option>
+          <option value="">Mercado Central</option>
+          <option value="">Lagoa da Pampulha</option>
+          <option value="">Praça da LIberdade</option>
+        </select>
+        <label for="intencao">Quais interesses você têm?</label>
+        <div class="group">
+          <label for="estudante">Estudante</label>
+          <input class="check" type="checkbox" id="estudante" />
+          <label for="residente">Residente</label>
+          <input class="check" type="checkbox" id="residente" />
+          <label for="turista">Turista</label>
+          <input class="check" type="checkbox" id="turista" />
+        </div>
+        <div class="botoes">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
